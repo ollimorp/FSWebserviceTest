@@ -1,0 +1,802 @@
+[
+	{
+		"MatchID": 39739,
+		"MatchDateTime": "2016-11-18T20:30:00",
+		"TimeZoneID": "W. Europe Standard Time",
+		"LeagueId": 3005,
+		"LeagueName": "1. Fußball-Bundesliga 2016/2017",
+		"MatchDateTimeUTC": "2016-11-18T19:30:00Z",
+		"Group": {
+			"GroupName": "11. Spieltag",
+			"GroupOrderID": 11,
+			"GroupID": 23843
+		},
+		"Team1": {
+			"TeamId": 6,
+			"TeamName": "Bayer Leverkusen",
+			"ShortName": "Leverkusen",
+			"TeamIconUrl": "https://upload.wikimedia.org/wikipedia/de/thumb/f/f7/Bayer_Leverkusen_Logo.svg/1280px-Bayer_Leverkusen_Logo.svg.png",
+			"TeamGroupName": null
+		},
+		"Team2": {
+			"TeamId": 1635,
+			"TeamName": "RB Leipzig",
+			"ShortName": "Leipzig",
+			"TeamIconUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/04/RB_Leipzig_2014_logo.svg/800px-RB_Leipzig_2014_logo.svg.png",
+			"TeamGroupName": null
+		},
+		"LastUpdateDateTime": "2016-11-19T17:45:07.383",
+		"MatchIsFinished": true,
+		"MatchResults": [
+			{
+				"ResultID": 70244,
+				"ResultName": "Halbzeitergebnis",
+				"PointsTeam1": 2,
+				"PointsTeam2": 1,
+				"ResultOrderID": 1,
+				"ResultTypeID": 1,
+				"ResultDescription": "Ergebnis zur Halbzeit"
+			},
+			{
+				"ResultID": 70246,
+				"ResultName": "Endergebnis",
+				"PointsTeam1": 2,
+				"PointsTeam2": 3,
+				"ResultOrderID": 2,
+				"ResultTypeID": 2,
+				"ResultDescription": "Ergebnis nach Spielende"
+			}
+		],
+		"Goals": [
+			{
+				"GoalID": 55514,
+				"ScoreTeam1": 1,
+				"ScoreTeam2": 0,
+				"MatchMinute": 1,
+				"GoalGetterID": 2275,
+				"GoalGetterName": "Kampl",
+				"IsPenalty": false,
+				"IsOwnGoal": false,
+				"IsOvertime": false,
+				"Comment": ""
+			},
+			{
+				"GoalID": 55515,
+				"ScoreTeam1": 1,
+				"ScoreTeam2": 1,
+				"MatchMinute": 4,
+				"GoalGetterID": 16202,
+				"GoalGetterName": "Julian Baumgartlinger",
+				"IsPenalty": false,
+				"IsOwnGoal": true,
+				"IsOvertime": false,
+				"Comment": ""
+			},
+			{
+				"GoalID": 55517,
+				"ScoreTeam1": 2,
+				"ScoreTeam2": 1,
+				"MatchMinute": 45,
+				"GoalGetterID": 15031,
+				"GoalGetterName": "Julian Brandt",
+				"IsPenalty": false,
+				"IsOwnGoal": false,
+				"IsOvertime": true,
+				"Comment": ""
+			},
+			{
+				"GoalID": 55524,
+				"ScoreTeam1": 2,
+				"ScoreTeam2": 2,
+				"MatchMinute": 66,
+				"GoalGetterID": 16078,
+				"GoalGetterName": "Emil Forsberg",
+				"IsPenalty": false,
+				"IsOwnGoal": false,
+				"IsOvertime": false,
+				"Comment": ""
+			},
+			{
+				"GoalID": 55525,
+				"ScoreTeam1": 2,
+				"ScoreTeam2": 3,
+				"MatchMinute": 80,
+				"GoalGetterID": 9045,
+				"GoalGetterName": "Willi Orban",
+				"IsPenalty": false,
+				"IsOwnGoal": false,
+				"IsOvertime": false,
+				"Comment": ""
+			}
+		],
+		"Location": {
+			"LocationID": 28,
+			"LocationCity": "Leverkusen",
+			"LocationStadium": "BayArena"
+		},
+		"NumberOfViewers": 27752
+	},
+	{
+		"MatchID": 39740,
+		"MatchDateTime": "2016-11-19T15:30:00",
+		"TimeZoneID": "W. Europe Standard Time",
+		"LeagueId": 3005,
+		"LeagueName": "1. Fußball-Bundesliga 2016/2017",
+		"MatchDateTimeUTC": "2016-11-19T14:30:00Z",
+		"Group": {
+			"GroupName": "11. Spieltag",
+			"GroupOrderID": 11,
+			"GroupID": 23843
+		},
+		"Team1": {
+			"TeamId": 87,
+			"TeamName": "Borussia Mönchengladbach",
+			"ShortName": "Gladbach",
+			"TeamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Borussia_Mönchengladbach_logo.svg",
+			"TeamGroupName": null
+		},
+		"Team2": {
+			"TeamId": 65,
+			"TeamName": "1. FC Köln",
+			"ShortName": "Köln",
+			"TeamIconUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/FC_Cologne_logo.svg/901px-FC_Cologne_logo.svg.png",
+			"TeamGroupName": null
+		},
+		"LastUpdateDateTime": "2016-11-24T19:58:02.377",
+		"MatchIsFinished": true,
+		"MatchResults": [
+			{
+				"ResultID": 70267,
+				"ResultName": "Halbzeitergebnis",
+				"PointsTeam1": 1,
+				"PointsTeam2": 0,
+				"ResultOrderID": 1,
+				"ResultTypeID": 1,
+				"ResultDescription": "Ergebnis zur Halbzeit"
+			},
+			{
+				"ResultID": 70280,
+				"ResultName": "Endergebnis",
+				"PointsTeam1": 1,
+				"PointsTeam2": 2,
+				"ResultOrderID": 2,
+				"ResultTypeID": 2,
+				"ResultDescription": "Ergebnis nach Spielende"
+			}
+		],
+		"Goals": [
+			{
+				"GoalID": 55559,
+				"ScoreTeam1": 1,
+				"ScoreTeam2": 0,
+				"MatchMinute": 32,
+				"GoalGetterID": 7445,
+				"GoalGetterName": "Lars Stindl",
+				"IsPenalty": false,
+				"IsOwnGoal": false,
+				"IsOvertime": false,
+				"Comment": ""
+			},
+			{
+				"GoalID": 55566,
+				"ScoreTeam1": 1,
+				"ScoreTeam2": 1,
+				"MatchMinute": 59,
+				"GoalGetterID": 16035,
+				"GoalGetterName": "Anthony Modeste",
+				"IsPenalty": false,
+				"IsOwnGoal": false,
+				"IsOvertime": false,
+				"Comment": ""
+			},
+			{
+				"GoalID": 55577,
+				"ScoreTeam1": 1,
+				"ScoreTeam2": 2,
+				"MatchMinute": 90,
+				"GoalGetterID": 14624,
+				"GoalGetterName": "Marcel Risse",
+				"IsPenalty": false,
+				"IsOwnGoal": false,
+				"IsOvertime": true,
+				"Comment": ""
+			}
+		],
+		"Location": {
+			"LocationID": 444,
+			"LocationCity": "Mönchengladbach",
+			"LocationStadium": "Borussia-Park"
+		},
+		"NumberOfViewers": 53757
+	},
+	{
+		"MatchID": 39741,
+		"MatchDateTime": "2016-11-19T15:30:00",
+		"TimeZoneID": "W. Europe Standard Time",
+		"LeagueId": 3005,
+		"LeagueName": "1. Fußball-Bundesliga 2016/2017",
+		"MatchDateTimeUTC": "2016-11-19T14:30:00Z",
+		"Group": {
+			"GroupName": "11. Spieltag",
+			"GroupOrderID": 11,
+			"GroupID": 23843
+		},
+		"Team1": {
+			"TeamId": 81,
+			"TeamName": "1. FSV Mainz 05",
+			"ShortName": "Mainz",
+			"TeamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Logo_Mainz_05.svg/1099px-Logo_Mainz_05.svg.png",
+			"TeamGroupName": null
+		},
+		"Team2": {
+			"TeamId": 112,
+			"TeamName": "SC Freiburg",
+			"ShortName": "Freiburg",
+			"TeamIconUrl": "https://upload.wikimedia.org/wikipedia/de/thumb/f/f1/SC-Freiburg_Logo-neu.svg/739px-SC-Freiburg_Logo-neu.svg.png",
+			"TeamGroupName": null
+		},
+		"LastUpdateDateTime": "2016-11-24T19:58:23.123",
+		"MatchIsFinished": true,
+		"MatchResults": [
+			{
+				"ResultID": 70268,
+				"ResultName": "Halbzeitergebnis",
+				"PointsTeam1": 2,
+				"PointsTeam2": 0,
+				"ResultOrderID": 1,
+				"ResultTypeID": 1,
+				"ResultDescription": "Ergebnis zur Halbzeit"
+			},
+			{
+				"ResultID": 70281,
+				"ResultName": "Endergebnis",
+				"PointsTeam1": 4,
+				"PointsTeam2": 2,
+				"ResultOrderID": 2,
+				"ResultTypeID": 2,
+				"ResultDescription": "Ergebnis nach Spielende"
+			}
+		],
+		"Goals": [
+			{
+				"GoalID": 55546,
+				"ScoreTeam1": 1,
+				"ScoreTeam2": 0,
+				"MatchMinute": 15,
+				"GoalGetterID": 1052,
+				"GoalGetterName": "Niko Bungert",
+				"IsPenalty": false,
+				"IsOwnGoal": false,
+				"IsOvertime": false,
+				"Comment": ""
+			},
+			{
+				"GoalID": 55547,
+				"ScoreTeam1": 2,
+				"ScoreTeam2": 0,
+				"MatchMinute": 20,
+				"GoalGetterID": 16090,
+				"GoalGetterName": "Yunus Malli",
+				"IsPenalty": true,
+				"IsOwnGoal": false,
+				"IsOvertime": false,
+				"Comment": ""
+			},
+			{
+				"GoalID": 55567,
+				"ScoreTeam1": 2,
+				"ScoreTeam2": 1,
+				"MatchMinute": 67,
+				"GoalGetterID": 16133,
+				"GoalGetterName": "Vincenzo Grifo",
+				"IsPenalty": false,
+				"IsOwnGoal": false,
+				"IsOvertime": false,
+				"Comment": ""
+			},
+			{
+				"GoalID": 55574,
+				"ScoreTeam1": 3,
+				"ScoreTeam2": 1,
+				"MatchMinute": 82,
+				"GoalGetterID": 16117,
+				"GoalGetterName": "Stefan Bell",
+				"IsPenalty": false,
+				"IsOwnGoal": false,
+				"IsOvertime": false,
+				"Comment": ""
+			},
+			{
+				"GoalID": 55575,
+				"ScoreTeam1": 3,
+				"ScoreTeam2": 2,
+				"MatchMinute": 85,
+				"GoalGetterID": 16053,
+				"GoalGetterName": "Nils Petersen",
+				"IsPenalty": false,
+				"IsOwnGoal": false,
+				"IsOvertime": false,
+				"Comment": ""
+			},
+			{
+				"GoalID": 55578,
+				"ScoreTeam1": 4,
+				"ScoreTeam2": 2,
+				"MatchMinute": 90,
+				"GoalGetterID": 16203,
+				"GoalGetterName": "Karim  Onisiwo",
+				"IsPenalty": false,
+				"IsOwnGoal": false,
+				"IsOvertime": true,
+				"Comment": ""
+			}
+		],
+		"Location": {
+			"LocationID": 1081,
+			"LocationCity": "Mainz",
+			"LocationStadium": "Opel-Arena"
+		},
+		"NumberOfViewers": 26573
+	},
+	{
+		"MatchID": 39742,
+		"MatchDateTime": "2016-11-19T15:30:00",
+		"TimeZoneID": "W. Europe Standard Time",
+		"LeagueId": 3005,
+		"LeagueName": "1. Fußball-Bundesliga 2016/2017",
+		"MatchDateTimeUTC": "2016-11-19T14:30:00Z",
+		"Group": {
+			"GroupName": "11. Spieltag",
+			"GroupOrderID": 11,
+			"GroupID": 23843
+		},
+		"Team1": {
+			"TeamId": 131,
+			"TeamName": "VfL Wolfsburg",
+			"ShortName": "Wolfsburg",
+			"TeamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Logo-VfL-Wolfsburg.svg/1024px-Logo-VfL-Wolfsburg.svg.png",
+			"TeamGroupName": null
+		},
+		"Team2": {
+			"TeamId": 9,
+			"TeamName": "FC Schalke 04",
+			"ShortName": "Schalke",
+			"TeamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/FC_Schalke_04_Logo.svg",
+			"TeamGroupName": null
+		},
+		"LastUpdateDateTime": "2016-11-24T19:58:34.557",
+		"MatchIsFinished": true,
+		"MatchResults": [
+			{
+				"ResultID": 70271,
+				"ResultName": "Halbzeitergebnis",
+				"PointsTeam1": 0,
+				"PointsTeam2": 0,
+				"ResultOrderID": 1,
+				"ResultTypeID": 1,
+				"ResultDescription": "Ergebnis zur Halbzeit"
+			},
+			{
+				"ResultID": 70282,
+				"ResultName": "Endergebnis",
+				"PointsTeam1": 0,
+				"PointsTeam2": 1,
+				"ResultOrderID": 2,
+				"ResultTypeID": 2,
+				"ResultDescription": "Ergebnis nach Spielende"
+			}
+		],
+		"Goals": [
+			{
+				"GoalID": 55573,
+				"ScoreTeam1": 0,
+				"ScoreTeam2": 1,
+				"MatchMinute": 82,
+				"GoalGetterID": 11373,
+				"GoalGetterName": "Leon Goretzka",
+				"IsPenalty": false,
+				"IsOwnGoal": false,
+				"IsOvertime": false,
+				"Comment": ""
+			}
+		],
+		"Location": {
+			"LocationID": 435,
+			"LocationCity": "Wolfsburg",
+			"LocationStadium": "Volkswagen-Arena"
+		},
+		"NumberOfViewers": 30000
+	},
+	{
+		"MatchID": 39743,
+		"MatchDateTime": "2016-11-19T15:30:00",
+		"TimeZoneID": "W. Europe Standard Time",
+		"LeagueId": 3005,
+		"LeagueName": "1. Fußball-Bundesliga 2016/2017",
+		"MatchDateTimeUTC": "2016-11-19T14:30:00Z",
+		"Group": {
+			"GroupName": "11. Spieltag",
+			"GroupOrderID": 11,
+			"GroupID": 23843
+		},
+		"Team1": {
+			"TeamId": 95,
+			"TeamName": "FC Augsburg",
+			"ShortName": "Augsburg",
+			"TeamIconUrl": "https://upload.wikimedia.org/wikipedia/de/b/b5/Logo_FC_Augsburg.svg",
+			"TeamGroupName": null
+		},
+		"Team2": {
+			"TeamId": 54,
+			"TeamName": "Hertha BSC",
+			"ShortName": "Hertha",
+			"TeamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Hertha_BSC_Logo_2012.svg/2858px-Hertha_BSC_Logo_2012.svg.png",
+			"TeamGroupName": null
+		},
+		"LastUpdateDateTime": "2016-11-24T19:58:55.037",
+		"MatchIsFinished": true,
+		"MatchResults": [
+			{
+				"ResultID": 70269,
+				"ResultName": "Halbzeitergebnis",
+				"PointsTeam1": 0,
+				"PointsTeam2": 0,
+				"ResultOrderID": 1,
+				"ResultTypeID": 1,
+				"ResultDescription": "Ergebnis zur Halbzeit"
+			},
+			{
+				"ResultID": 70283,
+				"ResultName": "Endergebnis",
+				"PointsTeam1": 0,
+				"PointsTeam2": 0,
+				"ResultOrderID": 2,
+				"ResultTypeID": 2,
+				"ResultDescription": "Ergebnis nach Spielende"
+			}
+		],
+		"Goals": [],
+		"Location": {
+			"LocationID": 1079,
+			"LocationCity": "Augsburg",
+			"LocationStadium": "WWK-Arena"
+		},
+		"NumberOfViewers": 27007
+	},
+	{
+		"MatchID": 39745,
+		"MatchDateTime": "2016-11-19T15:30:00",
+		"TimeZoneID": "W. Europe Standard Time",
+		"LeagueId": 3005,
+		"LeagueName": "1. Fußball-Bundesliga 2016/2017",
+		"MatchDateTimeUTC": "2016-11-19T14:30:00Z",
+		"Group": {
+			"GroupName": "11. Spieltag",
+			"GroupOrderID": 11,
+			"GroupID": 23843
+		},
+		"Team1": {
+			"TeamId": 118,
+			"TeamName": "SV Darmstadt 98",
+			"ShortName": "Darmstadt",
+			"TeamIconUrl": "https://www.openligadb.de/images/teamicons/SV_Darmstadt_98.gif",
+			"TeamGroupName": null
+		},
+		"Team2": {
+			"TeamId": 171,
+			"TeamName": "FC Ingolstadt 04",
+			"ShortName": "Ingolstadt",
+			"TeamIconUrl": "https://upload.wikimedia.org/wikipedia/de/thumb/5/55/FC-Ingolstadt_logo.svg/125px-FC-Ingolstadt_logo.svg.png",
+			"TeamGroupName": null
+		},
+		"LastUpdateDateTime": "2016-11-24T19:59:36.39",
+		"MatchIsFinished": true,
+		"MatchResults": [
+			{
+				"ResultID": 70270,
+				"ResultName": "Halbzeitergebnis",
+				"PointsTeam1": 0,
+				"PointsTeam2": 0,
+				"ResultOrderID": 1,
+				"ResultTypeID": 1,
+				"ResultDescription": "Ergebnis zur Halbzeit"
+			},
+			{
+				"ResultID": 70284,
+				"ResultName": "Endergebnis",
+				"PointsTeam1": 0,
+				"PointsTeam2": 1,
+				"ResultOrderID": 2,
+				"ResultTypeID": 2,
+				"ResultDescription": "Ergebnis nach Spielende"
+			}
+		],
+		"Goals": [
+			{
+				"GoalID": 55576,
+				"ScoreTeam1": 0,
+				"ScoreTeam2": 1,
+				"MatchMinute": 68,
+				"GoalGetterID": 16204,
+				"GoalGetterName": "Moritz Hartmann",
+				"IsPenalty": false,
+				"IsOwnGoal": false,
+				"IsOvertime": false,
+				"Comment": ""
+			}
+		],
+		"Location": {
+			"LocationID": 1080,
+			"LocationCity": "Darmstadt",
+			"LocationStadium": "Jonathan-Heimes-Stadion am Böllenfalltor"
+		},
+		"NumberOfViewers": 15000
+	},
+	{
+		"MatchID": 39738,
+		"MatchDateTime": "2016-11-19T18:30:00",
+		"TimeZoneID": "W. Europe Standard Time",
+		"LeagueId": 3005,
+		"LeagueName": "1. Fußball-Bundesliga 2016/2017",
+		"MatchDateTimeUTC": "2016-11-19T17:30:00Z",
+		"Group": {
+			"GroupName": "11. Spieltag",
+			"GroupOrderID": 11,
+			"GroupID": 23843
+		},
+		"Team1": {
+			"TeamId": 7,
+			"TeamName": "BV Borussia Dortmund 09",
+			"ShortName": "Dortmund",
+			"TeamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/240px-Borussia_Dortmund_logo.svg.png",
+			"TeamGroupName": null
+		},
+		"Team2": {
+			"TeamId": 40,
+			"TeamName": "FC Bayern München",
+			"ShortName": "Bayern",
+			"TeamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg/240px-Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg.png",
+			"TeamGroupName": null
+		},
+		"LastUpdateDateTime": "2016-11-24T19:57:28.54",
+		"MatchIsFinished": true,
+		"MatchResults": [
+			{
+				"ResultID": 70293,
+				"ResultName": "Halbzeitergebnis",
+				"PointsTeam1": 1,
+				"PointsTeam2": 0,
+				"ResultOrderID": 1,
+				"ResultTypeID": 1,
+				"ResultDescription": "Ergebnis zur Halbzeit"
+			},
+			{
+				"ResultID": 70295,
+				"ResultName": "Endergebnis",
+				"PointsTeam1": 1,
+				"PointsTeam2": 0,
+				"ResultOrderID": 2,
+				"ResultTypeID": 2,
+				"ResultDescription": "Ergebnis nach Spielende"
+			}
+		],
+		"Goals": [
+			{
+				"GoalID": 55579,
+				"ScoreTeam1": 1,
+				"ScoreTeam2": 0,
+				"MatchMinute": 11,
+				"GoalGetterID": 16033,
+				"GoalGetterName": "Pierre-Emerick Aubameyang",
+				"IsPenalty": false,
+				"IsOwnGoal": false,
+				"IsOvertime": false,
+				"Comment": ""
+			}
+		],
+		"Location": {
+			"LocationID": 184,
+			"LocationCity": "Dortmund",
+			"LocationStadium": "Signal-Iduna-Park"
+		},
+		"NumberOfViewers": 81360
+	},
+	{
+		"MatchID": 39746,
+		"MatchDateTime": "2016-11-20T15:30:00",
+		"TimeZoneID": "W. Europe Standard Time",
+		"LeagueId": 3005,
+		"LeagueName": "1. Fußball-Bundesliga 2016/2017",
+		"MatchDateTimeUTC": "2016-11-20T14:30:00Z",
+		"Group": {
+			"GroupName": "11. Spieltag",
+			"GroupOrderID": 11,
+			"GroupID": 23843
+		},
+		"Team1": {
+			"TeamId": 123,
+			"TeamName": "TSG 1899 Hoffenheim",
+			"ShortName": "Hoffenheim",
+			"TeamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/TSG_Logo-Standard_4c.png",
+			"TeamGroupName": null
+		},
+		"Team2": {
+			"TeamId": 100,
+			"TeamName": "Hamburger SV",
+			"ShortName": "HSV",
+			"TeamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
+			"TeamGroupName": null
+		},
+		"LastUpdateDateTime": "2016-11-24T20:00:09.977",
+		"MatchIsFinished": true,
+		"MatchResults": [
+			{
+				"ResultID": 70302,
+				"ResultName": "Halbzeitergebnis",
+				"PointsTeam1": 1,
+				"PointsTeam2": 1,
+				"ResultOrderID": 1,
+				"ResultTypeID": 1,
+				"ResultDescription": "Ergebnis zur Halbzeit"
+			},
+			{
+				"ResultID": 70304,
+				"ResultName": "Endergebnis",
+				"PointsTeam1": 2,
+				"PointsTeam2": 2,
+				"ResultOrderID": 2,
+				"ResultTypeID": 2,
+				"ResultDescription": "Ergebnis nach Spielende"
+			}
+		],
+		"Goals": [
+			{
+				"GoalID": 55586,
+				"ScoreTeam1": 0,
+				"ScoreTeam2": 1,
+				"MatchMinute": 29,
+				"GoalGetterID": 16208,
+				"GoalGetterName": "Filip Kostic",
+				"IsPenalty": false,
+				"IsOwnGoal": false,
+				"IsOvertime": false,
+				"Comment": ""
+			},
+			{
+				"GoalID": 55587,
+				"ScoreTeam1": 1,
+				"ScoreTeam2": 1,
+				"MatchMinute": 45,
+				"GoalGetterID": 16060,
+				"GoalGetterName": "Sandro Wagner ",
+				"IsPenalty": false,
+				"IsOwnGoal": false,
+				"IsOvertime": false,
+				"Comment": ""
+			},
+			{
+				"GoalID": 55588,
+				"ScoreTeam1": 2,
+				"ScoreTeam2": 1,
+				"MatchMinute": 49,
+				"GoalGetterID": 16174,
+				"GoalGetterName": "Steven Zuber",
+				"IsPenalty": false,
+				"IsOwnGoal": false,
+				"IsOvertime": false,
+				"Comment": ""
+			},
+			{
+				"GoalID": 55589,
+				"ScoreTeam1": 2,
+				"ScoreTeam2": 2,
+				"MatchMinute": 61,
+				"GoalGetterID": 16193,
+				"GoalGetterName": "Nicolai Müller",
+				"IsPenalty": false,
+				"IsOwnGoal": false,
+				"IsOvertime": false,
+				"Comment": ""
+			}
+		],
+		"Location": {
+			"LocationID": 511,
+			"LocationCity": "Sinsheim",
+			"LocationStadium": "WIRSOL Rhein-Neckar-Arena"
+		},
+		"NumberOfViewers": 29512
+	},
+	{
+		"MatchID": 39744,
+		"MatchDateTime": "2016-11-20T17:30:00",
+		"TimeZoneID": "W. Europe Standard Time",
+		"LeagueId": 3005,
+		"LeagueName": "1. Fußball-Bundesliga 2016/2017",
+		"MatchDateTimeUTC": "2016-11-20T16:30:00Z",
+		"Group": {
+			"GroupName": "11. Spieltag",
+			"GroupOrderID": 11,
+			"GroupID": 23843
+		},
+		"Team1": {
+			"TeamId": 134,
+			"TeamName": "Werder Bremen",
+			"ShortName": "Bremen",
+			"TeamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/SV-Werder-Bremen-Logo.svg/681px-SV-Werder-Bremen-Logo.svg.png",
+			"TeamGroupName": null
+		},
+		"Team2": {
+			"TeamId": 91,
+			"TeamName": "Eintracht Frankfurt",
+			"ShortName": "Frankfurt",
+			"TeamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Eintracht_Frankfurt_Logo.svg/1024px-Eintracht_Frankfurt_Logo.svg.png",
+			"TeamGroupName": null
+		},
+		"LastUpdateDateTime": "2016-11-24T19:59:17.88",
+		"MatchIsFinished": true,
+		"MatchResults": [
+			{
+				"ResultID": 70305,
+				"ResultName": "Halbzeitergebnis",
+				"PointsTeam1": 1,
+				"PointsTeam2": 0,
+				"ResultOrderID": 1,
+				"ResultTypeID": 1,
+				"ResultDescription": "Ergebnis zur Halbzeit"
+			},
+			{
+				"ResultID": 70306,
+				"ResultName": "Endergebnis",
+				"PointsTeam1": 1,
+				"PointsTeam2": 2,
+				"ResultOrderID": 2,
+				"ResultTypeID": 2,
+				"ResultDescription": "Ergebnis nach Spielende"
+			}
+		],
+		"Goals": [
+			{
+				"GoalID": 55590,
+				"ScoreTeam1": 1,
+				"ScoreTeam2": 0,
+				"MatchMinute": 38,
+				"GoalGetterID": 16206,
+				"GoalGetterName": "Florian Grillitsch",
+				"IsPenalty": false,
+				"IsOwnGoal": false,
+				"IsOvertime": false,
+				"Comment": ""
+			},
+			{
+				"GoalID": 55591,
+				"ScoreTeam1": 1,
+				"ScoreTeam2": 1,
+				"MatchMinute": 52,
+				"GoalGetterID": 1002,
+				"GoalGetterName": "Alexander Meier",
+				"IsPenalty": false,
+				"IsOwnGoal": false,
+				"IsOvertime": false,
+				"Comment": ""
+			},
+			{
+				"GoalID": 55592,
+				"ScoreTeam1": 1,
+				"ScoreTeam2": 2,
+				"MatchMinute": 90,
+				"GoalGetterID": 16207,
+				"GoalGetterName": "Aymen Barkok",
+				"IsPenalty": false,
+				"IsOwnGoal": false,
+				"IsOvertime": false,
+				"Comment": ""
+			}
+		],
+		"Location": {
+			"LocationID": 492,
+			"LocationCity": "Bremen",
+			"LocationStadium": "Weser-Stadion"
+		},
+		"NumberOfViewers": 39261
+	}
+]
