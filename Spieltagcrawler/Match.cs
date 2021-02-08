@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace NeumeierJob.Models
-{    public class Match 
+namespace Spieltagcrawler.Models
+{    public class Match
     {
         public int MatchID { get; set; }
         public DateTime MatchDateTime { get; set; }

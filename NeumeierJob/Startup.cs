@@ -11,6 +11,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using NeumeierJob.Models;
+using NeumeierJob.Util;
 
 namespace NeumeierJob
 {
@@ -27,6 +28,7 @@ namespace NeumeierJob
         public void ConfigureServices(IServiceCollection services)
         {
             //services.AddLogging();
+            services.AddSingleton<IFileLoader, Jsonfileloader>();
             services.AddDbContext<FSContext>(opt =>
                                                opt.UseInMemoryDatabase("FSList"));
             services.AddControllers();

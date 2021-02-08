@@ -12,7 +12,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "api/MatchDay", //"api/FSItems", //"weatherforecast",
+      "launchUrl": "api/MatchDay", //"api/FSItems", 
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -20,7 +20,7 @@
     "NeumeierJob": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/FSItems", //"weatherforecast",
+      "launchUrl": "api/MatchDay", //"api/FSItems",
       "applicationUrl": "http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"

@@ -2,15 +2,12 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Reflection;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using NeumeierJob.Models;
-using System.Text;
+using System.Threading.Tasks;
+using NeumeierJob.Util;
 
 namespace NeumeierJob.Controllers
 {
@@ -19,49 +16,26 @@ namespace NeumeierJob.Controllers
     public class MatchDayController : ControllerBase
     {
         private readonly ILogger<MatchDayController> _logger;
-        
+        private readonly IFileLoader _fileloader;
+
         string filecontent = string.Empty;
-        
-        List<Match> matches = new List<Match>();
 
-
-        public MatchDayController(ILogger<MatchDayController> logger)
+        public MatchDayController(ILogger<MatchDayController> logger, IFileLoader fileloader)
         {
             _logger = logger;
+            _fileloader = fileloader;
 
-            if(filecontent == string.Empty)
-            {
-                LoadFile(@"2019.json");
-            }
-
+            Load(@"2019.json").Wait();
         }
 
-        void LoadFile(string name)
+        async Task Load(string name)
         {
-            using (var s = new StreamReader(name))
-            {
-                if (s != null)
-                {
-                    _logger.LogInformation($"Loading {name}...");
-                    filecontent = s.ReadToEnd();
-
-
-                    matches = JsonConvert.DeserializeObject<List<Match>>(filecontent);
-                    var matchday = matches.Where(x => x.Group.GroupOrderID == 1).ToList();
-
-                    matchday.ForEach((m) =>
-                    _logger.LogInformation($"{m.Group.GroupOrderID}: {m.MatchDateTime}: ({m.Team1.ShortName}) {m.Team1.TeamName} : ({m.Team2.ShortName}) {m.Team2.TeamName}" +
-                    $" {m.MatchResults[1].PointsTeam1}:{m.MatchResults[1].PointsTeam2}"));
-                }
-                else
-                { 
-                    _logger.LogInformation($"File {name} not found...");
-                }
-            }
+            filecontent = await _fileloader.LoadAsync(@"2019.json"); 
         }
-
+                
+        // gibt Text der serialisierten Match-Objekte zurück!
         IEnumerable<Match> GetMatchDay(int id)
-        {
+        {            
             if (id > 0 && id <= 34)
             {
                 var result = JsonConvert.DeserializeObject<List<Match>>(filecontent).Where(x => x.Group.GroupOrderID == id);
@@ -77,6 +51,7 @@ namespace NeumeierJob.Controllers
             return Enumerable.Empty<Match>();
         } 
 
+        // Raw Text von allen Spielen
         [HttpGet]
         public string Get()
         {
@@ -84,23 +59,33 @@ namespace NeumeierJob.Controllers
             return filecontent;
         }
 
+        // Serialisierten Text von Klasse Match
         [HttpGet("{matchday}")]
         public string Get(int matchday)
         {
             _logger.LogInformation($"GET {matchday}");
-
-            var result = GetMatchDay(matchday);
             
+            var matches = GetMatchDay(matchday);
+            if (matches.Count() == 0)
+                return "Problem!";
+
+            string result = JsonConvert.SerializeObject(matches);
 
             return result;
         }
 
+        // Serialisierten Text von Klasse Match
         [HttpGet("{year}/{matchday}")]
         public string Get(int year, int matchday)
         {
             _logger.LogInformation($"GET {year}/{matchday}");
 
-            return filecontent;
+            var matches = GetMatchDay(matchday);
+            if (matches.Count() == 0)
+                return "Problem!";
+
+            string result = JsonConvert.SerializeObject(matches);
+            return result;
         }
     }
 
