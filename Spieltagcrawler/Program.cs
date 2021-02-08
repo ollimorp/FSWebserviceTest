@@ -16,7 +16,11 @@ namespace Spieltagcrawler
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+
+            var frm = new Form1();
+            frm.Model = new Models.AppModel(frm);
+
+            Application.Run(frm);
         }
     }
 }
